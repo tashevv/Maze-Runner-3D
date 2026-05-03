@@ -49,9 +49,12 @@ public class MazeGenerator : MonoBehaviour
     private static readonly Vector2Int WEST  = new Vector2Int(-2, 0);
 
     private bool hasWon = false;
+    private float runTime;
 
     void Start()
     {
+        runTime = 0f;
+
         EscapeUI.SetActive(false);
 
         if (WIDTH % 2 == 0) WIDTH++;
@@ -75,6 +78,11 @@ public class MazeGenerator : MonoBehaviour
 
     void Update()
     {
+        if (!hasWon)
+        {
+            runTime += Time.deltaTime;
+        }
+
         GenerateMinimap();
         UpdateUI();
 
@@ -102,7 +110,7 @@ public class MazeGenerator : MonoBehaviour
 
     void UpdateUI()
     {
-        TimeText.text = "Time: " + Time.time.ToString("0.0");
+        TimeText.text = "Time: " + runTime.ToString("0.0");
         SeedText.text = "Seed: " + SEED;
 
         int playerX = Mathf.RoundToInt(Player.position.x / CellSize);
