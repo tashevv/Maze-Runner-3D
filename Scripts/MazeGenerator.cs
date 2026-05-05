@@ -26,6 +26,14 @@ public class MazeGenerator : MonoBehaviour
     public int WIDTH = 21;
     public int HEIGHT = 21;
 
+    [Header("Random Maze Range")]
+    public int MinMazeSize = 20;
+    public int MaxMazeSize = 50;
+
+    [Header("Minimap Scaling")]
+    public float MaxMinimapSize = 350f; // 50x50 maze
+    public float MinMinimapSize = 140f; // 20x20 maze
+
     [Header("Prefabs")]
     public GameObject WallPrefab;
     public GameObject FloorPrefab;
@@ -57,8 +65,15 @@ public class MazeGenerator : MonoBehaviour
 
         EscapeUI.SetActive(false);
 
-        if (WIDTH % 2 == 0) WIDTH++;
-        if (HEIGHT % 2 == 0) HEIGHT++;
+        // RANDOM SIZE BETWEEN 20 AND 50
+        int randomSize = Random.Range(MinMazeSize, MaxMazeSize + 1);
+
+        // Force odd number for proper maze generation
+        if (randomSize % 2 == 0)
+            randomSize++;
+
+        WIDTH = randomSize;
+        HEIGHT = randomSize;
 
         if (SEED == 0)
             SEED = Random.Range(1, 32768);
@@ -73,7 +88,31 @@ public class MazeGenerator : MonoBehaviour
         minimapTexture.filterMode = FilterMode.Point;
         MinimapImage.texture = minimapTexture;
 
+        // SCALE MINIMAP SIZE PROPORTIONALLY
+        ScaleMinimap();
+
         GenerateMinimap();
+    }
+
+    void ScaleMinimap()
+    {
+        RectTransform rt = MinimapImage.rectTransform;
+
+        // Convert maze size into 0-1 range
+        float t = Mathf.InverseLerp(MinMazeSize, MaxMazeSize, WIDTH);
+
+        // Scale from small -> large
+        float size = Mathf.Lerp(MinMinimapSize, MaxMinimapSize, t);
+
+        rt.sizeDelta = new Vector2(size, size);
+
+        // TOP LEFT ANCHOR
+        rt.anchorMin = new Vector2(0f, 1f);
+        rt.anchorMax = new Vector2(0f, 1f);
+        rt.pivot = new Vector2(0f, 1f);
+
+        // Optional padding from screen edges
+        rt.anchoredPosition = new Vector2(20f, -120f);
     }
 
     void Update()
@@ -88,7 +127,6 @@ public class MazeGenerator : MonoBehaviour
 
         CheckWin();
 
-        // Restart or Quit at any time
         HandleWinInput();
     }
 
@@ -97,6 +135,7 @@ public class MazeGenerator : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             Time.timeScale = 1f;
+
             UnityEngine.SceneManagement.SceneManager.LoadScene(
                 UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex
             );
