@@ -1,4 +1,4 @@
-# Maze-Runner-3D
+# Maze Runner 3D v1.0
 
 3D version of the maze runner game i made in Unity. 
 
