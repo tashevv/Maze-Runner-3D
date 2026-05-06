@@ -1,0 +1,867 @@
+{ "pid": 32472, "tid": 34359738368, "ph": "M", "name": "thread_name", "args": { "name": "ReadEntireBinlogFromIpcAsync" } },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798372931, "dur": 40731, "ph": "X", "name": "WaitForConnectionAsync", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798413667, "dur": 687052, "ph": "X", "name": "UpdateFromStreamAsync", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798413688, "dur": 46, "ph": "X", "name": "ReadAsync 0", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798413740, "dur": 1, "ph": "X", "name": "ProcessMessages 4", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798413743, "dur": 386, "ph": "X", "name": "ReadAsync 4", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798414137, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798414143, "dur": 69, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798414222, "dur": 10, "ph": "X", "name": "ProcessMessages 47", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798414236, "dur": 3205, "ph": "X", "name": "ReadAsync 47", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798417453, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798417460, "dur": 370, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798417853, "dur": 4, "ph": "X", "name": "ProcessMessages 323", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798417862, "dur": 116, "ph": "X", "name": "ReadAsync 323", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798417985, "dur": 6, "ph": "X", "name": "ProcessMessages 922", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798417995, "dur": 75, "ph": "X", "name": "ReadAsync 922", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418075, "dur": 2, "ph": "X", "name": "ProcessMessages 264", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418078, "dur": 52, "ph": "X", "name": "ReadAsync 264", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418134, "dur": 1, "ph": "X", "name": "ProcessMessages 67", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418137, "dur": 61, "ph": "X", "name": "ReadAsync 67", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418204, "dur": 2, "ph": "X", "name": "ProcessMessages 258", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418209, "dur": 80, "ph": "X", "name": "ReadAsync 258", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418295, "dur": 2, "ph": "X", "name": "ProcessMessages 260", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418299, "dur": 56, "ph": "X", "name": "ReadAsync 260", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418358, "dur": 2, "ph": "X", "name": "ProcessMessages 210", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418362, "dur": 56, "ph": "X", "name": "ReadAsync 210", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418429, "dur": 3, "ph": "X", "name": "ProcessMessages 166", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418435, "dur": 74, "ph": "X", "name": "ReadAsync 166", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418519, "dur": 3, "ph": "X", "name": "ProcessMessages 274", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418526, "dur": 101, "ph": "X", "name": "ReadAsync 274", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418633, "dur": 6, "ph": "X", "name": "ProcessMessages 309", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418643, "dur": 75, "ph": "X", "name": "ReadAsync 309", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418724, "dur": 3, "ph": "X", "name": "ProcessMessages 307", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418731, "dur": 58, "ph": "X", "name": "ReadAsync 307", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418797, "dur": 3, "ph": "X", "name": "ProcessMessages 204", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418804, "dur": 70, "ph": "X", "name": "ReadAsync 204", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418880, "dur": 3, "ph": "X", "name": "ProcessMessages 176", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418887, "dur": 69, "ph": "X", "name": "ReadAsync 176", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418962, "dur": 5, "ph": "X", "name": "ProcessMessages 288", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798418970, "dur": 62, "ph": "X", "name": "ReadAsync 288", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419040, "dur": 2, "ph": "X", "name": "ProcessMessages 245", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419045, "dur": 69, "ph": "X", "name": "ReadAsync 245", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419120, "dur": 2, "ph": "X", "name": "ProcessMessages 94", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419126, "dur": 63, "ph": "X", "name": "ReadAsync 94", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419194, "dur": 2, "ph": "X", "name": "ProcessMessages 298", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419202, "dur": 49, "ph": "X", "name": "ReadAsync 298", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419255, "dur": 2, "ph": "X", "name": "ProcessMessages 141", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419264, "dur": 164, "ph": "X", "name": "ReadAsync 141", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419434, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419441, "dur": 76, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419524, "dur": 3, "ph": "X", "name": "ProcessMessages 577", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419530, "dur": 70, "ph": "X", "name": "ReadAsync 577", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419608, "dur": 3, "ph": "X", "name": "ProcessMessages 368", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419614, "dur": 74, "ph": "X", "name": "ReadAsync 368", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419696, "dur": 3, "ph": "X", "name": "ProcessMessages 395", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419702, "dur": 72, "ph": "X", "name": "ReadAsync 395", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419782, "dur": 2, "ph": "X", "name": "ProcessMessages 492", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419787, "dur": 72, "ph": "X", "name": "ReadAsync 492", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419868, "dur": 2, "ph": "X", "name": "ProcessMessages 363", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419873, "dur": 72, "ph": "X", "name": "ReadAsync 363", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419953, "dur": 3, "ph": "X", "name": "ProcessMessages 474", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798419959, "dur": 72, "ph": "X", "name": "ReadAsync 474", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420039, "dur": 3, "ph": "X", "name": "ProcessMessages 391", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420045, "dur": 72, "ph": "X", "name": "ReadAsync 391", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420125, "dur": 3, "ph": "X", "name": "ProcessMessages 412", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420131, "dur": 73, "ph": "X", "name": "ReadAsync 412", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420213, "dur": 3, "ph": "X", "name": "ProcessMessages 605", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420218, "dur": 74, "ph": "X", "name": "ReadAsync 605", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420301, "dur": 3, "ph": "X", "name": "ProcessMessages 354", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420306, "dur": 72, "ph": "X", "name": "ReadAsync 354", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420387, "dur": 3, "ph": "X", "name": "ProcessMessages 425", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420393, "dur": 80, "ph": "X", "name": "ReadAsync 425", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420481, "dur": 3, "ph": "X", "name": "ProcessMessages 498", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420486, "dur": 68, "ph": "X", "name": "ReadAsync 498", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420562, "dur": 2, "ph": "X", "name": "ProcessMessages 198", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420567, "dur": 70, "ph": "X", "name": "ReadAsync 198", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420645, "dur": 2, "ph": "X", "name": "ProcessMessages 277", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420650, "dur": 71, "ph": "X", "name": "ReadAsync 277", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420728, "dur": 8, "ph": "X", "name": "ProcessMessages 399", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420740, "dur": 80, "ph": "X", "name": "ReadAsync 399", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420829, "dur": 2, "ph": "X", "name": "ProcessMessages 289", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420835, "dur": 76, "ph": "X", "name": "ReadAsync 289", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420919, "dur": 3, "ph": "X", "name": "ProcessMessages 406", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798420925, "dur": 74, "ph": "X", "name": "ReadAsync 406", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421008, "dur": 3, "ph": "X", "name": "ProcessMessages 500", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421013, "dur": 73, "ph": "X", "name": "ReadAsync 500", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421094, "dur": 2, "ph": "X", "name": "ProcessMessages 489", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421100, "dur": 72, "ph": "X", "name": "ReadAsync 489", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421180, "dur": 3, "ph": "X", "name": "ProcessMessages 394", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421186, "dur": 75, "ph": "X", "name": "ReadAsync 394", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421269, "dur": 3, "ph": "X", "name": "ProcessMessages 384", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421275, "dur": 76, "ph": "X", "name": "ReadAsync 384", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421359, "dur": 2, "ph": "X", "name": "ProcessMessages 513", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421364, "dur": 80, "ph": "X", "name": "ReadAsync 513", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421456, "dur": 3, "ph": "X", "name": "ProcessMessages 481", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421465, "dur": 70, "ph": "X", "name": "ReadAsync 481", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421543, "dur": 3, "ph": "X", "name": "ProcessMessages 458", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421549, "dur": 74, "ph": "X", "name": "ReadAsync 458", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421631, "dur": 2, "ph": "X", "name": "ProcessMessages 500", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421636, "dur": 72, "ph": "X", "name": "ReadAsync 500", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421716, "dur": 3, "ph": "X", "name": "ProcessMessages 470", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421721, "dur": 75, "ph": "X", "name": "ReadAsync 470", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421804, "dur": 3, "ph": "X", "name": "ProcessMessages 367", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421809, "dur": 69, "ph": "X", "name": "ReadAsync 367", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421887, "dur": 3, "ph": "X", "name": "ProcessMessages 402", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421892, "dur": 73, "ph": "X", "name": "ReadAsync 402", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421973, "dur": 2, "ph": "X", "name": "ProcessMessages 401", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798421979, "dur": 71, "ph": "X", "name": "ReadAsync 401", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422057, "dur": 3, "ph": "X", "name": "ProcessMessages 417", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422063, "dur": 72, "ph": "X", "name": "ReadAsync 417", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422143, "dur": 3, "ph": "X", "name": "ProcessMessages 414", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422148, "dur": 76, "ph": "X", "name": "ReadAsync 414", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422232, "dur": 2, "ph": "X", "name": "ProcessMessages 477", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422237, "dur": 75, "ph": "X", "name": "ReadAsync 477", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422320, "dur": 3, "ph": "X", "name": "ProcessMessages 478", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422325, "dur": 69, "ph": "X", "name": "ReadAsync 478", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422402, "dur": 3, "ph": "X", "name": "ProcessMessages 410", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422408, "dur": 163, "ph": "X", "name": "ReadAsync 410", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422577, "dur": 3, "ph": "X", "name": "ProcessMessages 385", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422584, "dur": 68, "ph": "X", "name": "ReadAsync 385", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422656, "dur": 2, "ph": "X", "name": "ProcessMessages 313", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422661, "dur": 63, "ph": "X", "name": "ReadAsync 313", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422731, "dur": 2, "ph": "X", "name": "ProcessMessages 285", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422737, "dur": 58, "ph": "X", "name": "ReadAsync 285", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422798, "dur": 2, "ph": "X", "name": "ProcessMessages 238", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422802, "dur": 52, "ph": "X", "name": "ReadAsync 238", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422858, "dur": 3, "ph": "X", "name": "ProcessMessages 368", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422863, "dur": 50, "ph": "X", "name": "ReadAsync 368", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422918, "dur": 1, "ph": "X", "name": "ProcessMessages 199", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422921, "dur": 56, "ph": "X", "name": "ReadAsync 199", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422982, "dur": 1, "ph": "X", "name": "ProcessMessages 304", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798422987, "dur": 46, "ph": "X", "name": "ReadAsync 304", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423038, "dur": 3, "ph": "X", "name": "ProcessMessages 91", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423045, "dur": 53, "ph": "X", "name": "ReadAsync 91", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423103, "dur": 2, "ph": "X", "name": "ProcessMessages 325", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423108, "dur": 58, "ph": "X", "name": "ReadAsync 325", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423175, "dur": 2, "ph": "X", "name": "ProcessMessages 296", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423180, "dur": 54, "ph": "X", "name": "ReadAsync 296", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423240, "dur": 2, "ph": "X", "name": "ProcessMessages 66", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423245, "dur": 82, "ph": "X", "name": "ReadAsync 66", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423335, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423341, "dur": 74, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423423, "dur": 2, "ph": "X", "name": "ProcessMessages 318", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423428, "dur": 75, "ph": "X", "name": "ReadAsync 318", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423512, "dur": 3, "ph": "X", "name": "ProcessMessages 637", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423517, "dur": 69, "ph": "X", "name": "ReadAsync 637", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423595, "dur": 2, "ph": "X", "name": "ProcessMessages 377", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423600, "dur": 73, "ph": "X", "name": "ReadAsync 377", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423681, "dur": 3, "ph": "X", "name": "ProcessMessages 414", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423686, "dur": 71, "ph": "X", "name": "ReadAsync 414", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423765, "dur": 3, "ph": "X", "name": "ProcessMessages 372", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423771, "dur": 81, "ph": "X", "name": "ReadAsync 372", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423858, "dur": 2, "ph": "X", "name": "ProcessMessages 686", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423862, "dur": 54, "ph": "X", "name": "ReadAsync 686", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423920, "dur": 2, "ph": "X", "name": "ProcessMessages 258", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423924, "dur": 67, "ph": "X", "name": "ReadAsync 258", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798423999, "dur": 2, "ph": "X", "name": "ProcessMessages 217", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424004, "dur": 76, "ph": "X", "name": "ReadAsync 217", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424088, "dur": 2, "ph": "X", "name": "ProcessMessages 671", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424094, "dur": 72, "ph": "X", "name": "ReadAsync 671", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424174, "dur": 2, "ph": "X", "name": "ProcessMessages 392", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424179, "dur": 74, "ph": "X", "name": "ReadAsync 392", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424261, "dur": 3, "ph": "X", "name": "ProcessMessages 387", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424267, "dur": 77, "ph": "X", "name": "ReadAsync 387", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424352, "dur": 3, "ph": "X", "name": "ProcessMessages 394", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424358, "dur": 74, "ph": "X", "name": "ReadAsync 394", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424440, "dur": 8, "ph": "X", "name": "ProcessMessages 572", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424455, "dur": 64, "ph": "X", "name": "ReadAsync 572", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424525, "dur": 2, "ph": "X", "name": "ProcessMessages 228", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424529, "dur": 65, "ph": "X", "name": "ReadAsync 228", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424602, "dur": 2, "ph": "X", "name": "ProcessMessages 215", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424607, "dur": 75, "ph": "X", "name": "ReadAsync 215", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424691, "dur": 3, "ph": "X", "name": "ProcessMessages 489", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424696, "dur": 72, "ph": "X", "name": "ReadAsync 489", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424776, "dur": 3, "ph": "X", "name": "ProcessMessages 427", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424781, "dur": 78, "ph": "X", "name": "ReadAsync 427", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424865, "dur": 2, "ph": "X", "name": "ProcessMessages 377", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424870, "dur": 68, "ph": "X", "name": "ReadAsync 377", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424946, "dur": 3, "ph": "X", "name": "ProcessMessages 316", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798424952, "dur": 71, "ph": "X", "name": "ReadAsync 316", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425031, "dur": 3, "ph": "X", "name": "ProcessMessages 332", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425043, "dur": 70, "ph": "X", "name": "ReadAsync 332", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425120, "dur": 3, "ph": "X", "name": "ProcessMessages 458", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425125, "dur": 75, "ph": "X", "name": "ReadAsync 458", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425209, "dur": 3, "ph": "X", "name": "ProcessMessages 455", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425214, "dur": 72, "ph": "X", "name": "ReadAsync 455", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425294, "dur": 2, "ph": "X", "name": "ProcessMessages 398", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425299, "dur": 72, "ph": "X", "name": "ReadAsync 398", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425378, "dur": 3, "ph": "X", "name": "ProcessMessages 381", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425385, "dur": 72, "ph": "X", "name": "ReadAsync 381", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425464, "dur": 2, "ph": "X", "name": "ProcessMessages 506", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425470, "dur": 71, "ph": "X", "name": "ReadAsync 506", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425548, "dur": 3, "ph": "X", "name": "ProcessMessages 416", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425553, "dur": 77, "ph": "X", "name": "ReadAsync 416", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425639, "dur": 3, "ph": "X", "name": "ProcessMessages 405", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425645, "dur": 69, "ph": "X", "name": "ReadAsync 405", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425722, "dur": 3, "ph": "X", "name": "ProcessMessages 350", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425727, "dur": 72, "ph": "X", "name": "ReadAsync 350", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425807, "dur": 2, "ph": "X", "name": "ProcessMessages 456", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425812, "dur": 78, "ph": "X", "name": "ReadAsync 456", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425898, "dur": 3, "ph": "X", "name": "ProcessMessages 453", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425905, "dur": 74, "ph": "X", "name": "ReadAsync 453", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425989, "dur": 2, "ph": "X", "name": "ProcessMessages 345", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798425998, "dur": 72, "ph": "X", "name": "ReadAsync 345", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426078, "dur": 3, "ph": "X", "name": "ProcessMessages 366", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426084, "dur": 73, "ph": "X", "name": "ReadAsync 366", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426165, "dur": 2, "ph": "X", "name": "ProcessMessages 516", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426170, "dur": 71, "ph": "X", "name": "ReadAsync 516", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426250, "dur": 3, "ph": "X", "name": "ProcessMessages 440", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426255, "dur": 72, "ph": "X", "name": "ReadAsync 440", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426335, "dur": 2, "ph": "X", "name": "ProcessMessages 325", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426340, "dur": 72, "ph": "X", "name": "ReadAsync 325", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426420, "dur": 3, "ph": "X", "name": "ProcessMessages 402", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426426, "dur": 72, "ph": "X", "name": "ReadAsync 402", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426507, "dur": 2, "ph": "X", "name": "ProcessMessages 359", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426512, "dur": 73, "ph": "X", "name": "ReadAsync 359", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426594, "dur": 2, "ph": "X", "name": "ProcessMessages 465", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426599, "dur": 74, "ph": "X", "name": "ReadAsync 465", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426681, "dur": 2, "ph": "X", "name": "ProcessMessages 437", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426686, "dur": 74, "ph": "X", "name": "ReadAsync 437", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426768, "dur": 3, "ph": "X", "name": "ProcessMessages 333", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426774, "dur": 75, "ph": "X", "name": "ReadAsync 333", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426854, "dur": 2, "ph": "X", "name": "ProcessMessages 308", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426859, "dur": 66, "ph": "X", "name": "ReadAsync 308", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426931, "dur": 3, "ph": "X", "name": "ProcessMessages 334", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798426940, "dur": 71, "ph": "X", "name": "ReadAsync 334", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427016, "dur": 2, "ph": "X", "name": "ProcessMessages 206", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427022, "dur": 71, "ph": "X", "name": "ReadAsync 206", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427098, "dur": 3, "ph": "X", "name": "ProcessMessages 204", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427105, "dur": 72, "ph": "X", "name": "ReadAsync 204", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427182, "dur": 3, "ph": "X", "name": "ProcessMessages 315", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427188, "dur": 67, "ph": "X", "name": "ReadAsync 315", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427261, "dur": 2, "ph": "X", "name": "ProcessMessages 176", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427266, "dur": 82, "ph": "X", "name": "ReadAsync 176", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427354, "dur": 2, "ph": "X", "name": "ProcessMessages 281", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427359, "dur": 60, "ph": "X", "name": "ReadAsync 281", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427423, "dur": 5, "ph": "X", "name": "ProcessMessages 177", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427432, "dur": 92, "ph": "X", "name": "ReadAsync 177", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427531, "dur": 2, "ph": "X", "name": "ProcessMessages 299", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427537, "dur": 169, "ph": "X", "name": "ReadAsync 299", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427713, "dur": 3, "ph": "X", "name": "ProcessMessages 174", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427719, "dur": 83, "ph": "X", "name": "ReadAsync 174", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427808, "dur": 6, "ph": "X", "name": "ProcessMessages 497", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427817, "dur": 70, "ph": "X", "name": "ReadAsync 497", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427896, "dur": 2, "ph": "X", "name": "ProcessMessages 161", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427901, "dur": 75, "ph": "X", "name": "ReadAsync 161", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427984, "dur": 3, "ph": "X", "name": "ProcessMessages 411", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798427990, "dur": 73, "ph": "X", "name": "ReadAsync 411", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428071, "dur": 3, "ph": "X", "name": "ProcessMessages 321", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428077, "dur": 72, "ph": "X", "name": "ReadAsync 321", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428157, "dur": 3, "ph": "X", "name": "ProcessMessages 355", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428163, "dur": 74, "ph": "X", "name": "ReadAsync 355", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428245, "dur": 3, "ph": "X", "name": "ProcessMessages 478", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428250, "dur": 73, "ph": "X", "name": "ReadAsync 478", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428331, "dur": 2, "ph": "X", "name": "ProcessMessages 410", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428337, "dur": 72, "ph": "X", "name": "ReadAsync 410", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428417, "dur": 2, "ph": "X", "name": "ProcessMessages 304", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428422, "dur": 62, "ph": "X", "name": "ReadAsync 304", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428493, "dur": 2, "ph": "X", "name": "ProcessMessages 39", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428498, "dur": 68, "ph": "X", "name": "ReadAsync 39", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428574, "dur": 2, "ph": "X", "name": "ProcessMessages 270", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428578, "dur": 71, "ph": "X", "name": "ReadAsync 270", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428657, "dur": 3, "ph": "X", "name": "ProcessMessages 333", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428662, "dur": 75, "ph": "X", "name": "ReadAsync 333", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428746, "dur": 3, "ph": "X", "name": "ProcessMessages 352", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428751, "dur": 72, "ph": "X", "name": "ReadAsync 352", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428842, "dur": 6, "ph": "X", "name": "ProcessMessages 318", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428852, "dur": 68, "ph": "X", "name": "ReadAsync 318", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428929, "dur": 2, "ph": "X", "name": "ProcessMessages 336", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798428934, "dur": 73, "ph": "X", "name": "ReadAsync 336", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798429015, "dur": 2, "ph": "X", "name": "ProcessMessages 379", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798429020, "dur": 75, "ph": "X", "name": "ReadAsync 379", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798429103, "dur": 3, "ph": "X", "name": "ProcessMessages 391", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798429108, "dur": 74, "ph": "X", "name": "ReadAsync 391", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798429190, "dur": 3, "ph": "X", "name": "ProcessMessages 299", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798429196, "dur": 64, "ph": "X", "name": "ReadAsync 299", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798429266, "dur": 3, "ph": "X", "name": "ProcessMessages 267", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798429272, "dur": 3862, "ph": "X", "name": "ReadAsync 267", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798433144, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798433149, "dur": 70, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798433227, "dur": 2, "ph": "X", "name": "ProcessMessages 20", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798433232, "dur": 734, "ph": "X", "name": "ReadAsync 20", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798433975, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798433981, "dur": 304, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798434293, "dur": 9, "ph": "X", "name": "ProcessMessages 28", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798434307, "dur": 864, "ph": "X", "name": "ReadAsync 28", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798435186, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798435192, "dur": 93, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798435292, "dur": 5, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798435299, "dur": 2822, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798438132, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798438139, "dur": 61, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798438204, "dur": 625, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798438837, "dur": 65, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798438907, "dur": 4, "ph": "X", "name": "ProcessMessages 20", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798438915, "dur": 438, "ph": "X", "name": "ReadAsync 20", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798439360, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798439365, "dur": 81, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798439451, "dur": 5, "ph": "X", "name": "ProcessMessages 24", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798439459, "dur": 62, "ph": "X", "name": "ReadAsync 24", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798439528, "dur": 19, "ph": "X", "name": "ProcessMessages 92", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798439551, "dur": 109, "ph": "X", "name": "ReadAsync 92", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798439666, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798439670, "dur": 63, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798439737, "dur": 4, "ph": "X", "name": "ProcessMessages 28", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798439745, "dur": 1119, "ph": "X", "name": "ReadAsync 28", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798440875, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798440881, "dur": 121, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798441009, "dur": 25, "ph": "X", "name": "ProcessMessages 54", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798441037, "dur": 499, "ph": "X", "name": "ReadAsync 54", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798441545, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798441551, "dur": 63, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798441619, "dur": 14, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798441637, "dur": 84, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798441728, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798441733, "dur": 69, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798441808, "dur": 13, "ph": "X", "name": "ProcessMessages 54", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798441824, "dur": 201, "ph": "X", "name": "ReadAsync 54", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798442031, "dur": 1, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798442036, "dur": 58, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798442102, "dur": 3, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798442108, "dur": 19595, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798461715, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798461722, "dur": 133, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798461862, "dur": 38, "ph": "X", "name": "ProcessMessages 186", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798461903, "dur": 4076, "ph": "X", "name": "ReadAsync 186", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798465989, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798465999, "dur": 201, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798466207, "dur": 26, "ph": "X", "name": "ProcessMessages 120", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798466236, "dur": 264, "ph": "X", "name": "ReadAsync 120", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798466507, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798466512, "dur": 72, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798466588, "dur": 16, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798466606, "dur": 12452, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798479068, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798479074, "dur": 2175, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798481260, "dur": 84, "ph": "X", "name": "ProcessMessages 582", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798481349, "dur": 16031, "ph": "X", "name": "ReadAsync 582", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798497394, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798497404, "dur": 6505, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798503921, "dur": 20, "ph": "X", "name": "ProcessMessages 74", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798503945, "dur": 2120, "ph": "X", "name": "ReadAsync 74", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798506075, "dur": 19, "ph": "X", "name": "ProcessMessages 66", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798506097, "dur": 167, "ph": "X", "name": "ReadAsync 66", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798506270, "dur": 11, "ph": "X", "name": "ProcessMessages 46", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798506284, "dur": 39961, "ph": "X", "name": "ReadAsync 46", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798546274, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798546280, "dur": 985, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798547276, "dur": 9, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798547289, "dur": 38063, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798585363, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798585369, "dur": 92, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798585471, "dur": 19, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798585493, "dur": 41935, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798627445, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798627452, "dur": 73, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798627529, "dur": 16, "ph": "X", "name": "ProcessMessages 34", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798627548, "dur": 12330, "ph": "X", "name": "ReadAsync 34", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798639892, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798639899, "dur": 210, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798640118, "dur": 20, "ph": "X", "name": "ProcessMessages 74", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798640141, "dur": 2507, "ph": "X", "name": "ReadAsync 74", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798642660, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798642667, "dur": 994, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798643671, "dur": 28, "ph": "X", "name": "ProcessMessages 100", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798643703, "dur": 3101, "ph": "X", "name": "ReadAsync 100", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798646826, "dur": 7, "ph": "X", "name": "ProcessMessages 40", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798646837, "dur": 4261, "ph": "X", "name": "ReadAsync 40", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798651109, "dur": 34, "ph": "X", "name": "ProcessMessages 264", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798651146, "dur": 1379, "ph": "X", "name": "ReadAsync 264", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798652534, "dur": 57, "ph": "X", "name": "ProcessMessages 468", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798652595, "dur": 14919, "ph": "X", "name": "ReadAsync 468", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798667529, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798667538, "dur": 652, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798668248, "dur": 13, "ph": "X", "name": "ProcessMessages 48", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798668266, "dur": 1739, "ph": "X", "name": "ReadAsync 48", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798670016, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798670023, "dur": 2987, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798673020, "dur": 37, "ph": "X", "name": "ProcessMessages 252", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798673061, "dur": 423, "ph": "X", "name": "ReadAsync 252", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798673491, "dur": 40, "ph": "X", "name": "ProcessMessages 310", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798673534, "dur": 5741, "ph": "X", "name": "ReadAsync 310", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798679287, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798679293, "dur": 6223, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798685527, "dur": 30, "ph": "X", "name": "ProcessMessages 206", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798685561, "dur": 6698, "ph": "X", "name": "ReadAsync 206", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798692272, "dur": 67, "ph": "X", "name": "ProcessMessages 574", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798692344, "dur": 7033, "ph": "X", "name": "ReadAsync 574", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798699391, "dur": 68, "ph": "X", "name": "ProcessMessages 548", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798699465, "dur": 2977, "ph": "X", "name": "ReadAsync 548", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798702452, "dur": 59, "ph": "X", "name": "ProcessMessages 462", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798702515, "dur": 247, "ph": "X", "name": "ReadAsync 462", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798702771, "dur": 26, "ph": "X", "name": "ProcessMessages 198", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798702800, "dur": 881, "ph": "X", "name": "ReadAsync 198", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798703691, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798703697, "dur": 2361, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798706083, "dur": 21, "ph": "X", "name": "ProcessMessages 54", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798706111, "dur": 3567, "ph": "X", "name": "ReadAsync 54", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798709692, "dur": 41, "ph": "X", "name": "ProcessMessages 264", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798709737, "dur": 1700, "ph": "X", "name": "ReadAsync 264", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798711450, "dur": 87, "ph": "X", "name": "ProcessMessages 442", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798711542, "dur": 95, "ph": "X", "name": "ReadAsync 442", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798711644, "dur": 23, "ph": "X", "name": "ProcessMessages 132", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798711671, "dur": 1232, "ph": "X", "name": "ReadAsync 132", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798712914, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798712921, "dur": 1266, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798714196, "dur": 25, "ph": "X", "name": "ProcessMessages 74", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798714226, "dur": 97, "ph": "X", "name": "ReadAsync 74", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798714330, "dur": 39, "ph": "X", "name": "ProcessMessages 244", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798714375, "dur": 564, "ph": "X", "name": "ReadAsync 244", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798714947, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798714953, "dur": 356, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798715318, "dur": 5, "ph": "X", "name": "ProcessMessages 8", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798715326, "dur": 784, "ph": "X", "name": "ReadAsync 8", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798716122, "dur": 2, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798716128, "dur": 102, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798716237, "dur": 35, "ph": "X", "name": "ProcessMessages 186", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798716276, "dur": 1812, "ph": "X", "name": "ReadAsync 186", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798718149, "dur": 4, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798718158, "dur": 89, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798718252, "dur": 33, "ph": "X", "name": "ProcessMessages 186", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798718289, "dur": 1252, "ph": "X", "name": "ReadAsync 186", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798719551, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798719558, "dur": 321, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798719887, "dur": 33, "ph": "X", "name": "ProcessMessages 186", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798719923, "dur": 83, "ph": "X", "name": "ReadAsync 186", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798720013, "dur": 15, "ph": "X", "name": "ProcessMessages 46", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798720032, "dur": 61477, "ph": "X", "name": "ReadAsync 46", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798781521, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798781527, "dur": 3270, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798784810, "dur": 23, "ph": "X", "name": "ProcessMessages 74", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798784837, "dur": 8566, "ph": "X", "name": "ReadAsync 74", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798793414, "dur": 46, "ph": "X", "name": "ProcessMessages 244", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798793463, "dur": 4617, "ph": "X", "name": "ReadAsync 244", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798798092, "dur": 62, "ph": "X", "name": "ProcessMessages 548", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798798158, "dur": 1217, "ph": "X", "name": "ReadAsync 548", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798799389, "dur": 54, "ph": "X", "name": "ProcessMessages 198", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798799448, "dur": 9122, "ph": "X", "name": "ReadAsync 198", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798808582, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798808589, "dur": 5159, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798813758, "dur": 48, "ph": "X", "name": "ProcessMessages 384", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798813811, "dur": 2516, "ph": "X", "name": "ReadAsync 384", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798816338, "dur": 40, "ph": "X", "name": "ProcessMessages 290", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798816382, "dur": 629, "ph": "X", "name": "ReadAsync 290", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798817021, "dur": 20, "ph": "X", "name": "ProcessMessages 46", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988798817045, "dur": 233211, "ph": "X", "name": "ReadAsync 46", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988799050267, "dur": 3, "ph": "X", "name": "ProcessMessages 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988799050274, "dur": 159, "ph": "X", "name": "ReadAsync 12", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988799050440, "dur": 20, "ph": "X", "name": "ProcessMessages 50", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988799050463, "dur": 86, "ph": "X", "name": "ReadAsync 50", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988799050553, "dur": 2, "ph": "X", "name": "ProcessMessages 25", "args": {} },
+{ "pid": 32472, "tid": 34359738368, "ts": 1777988799050558, "dur": 50154, "ph": "X", "name": "ReadAsync 25", "args": {} },
+{ "pid": 32472, "tid": 294, "ts": 1777988799101396, "dur": 2579, "ph": "X", "name": "ReadEntireBinlogFromIpcAsync", "args": {} },
+{ "pid": 32472, "tid": 30064771072, "ph": "M", "name": "thread_name", "args": { "name": "BuildAsync" } },
+{ "pid": 32472, "tid": 30064771072, "ts": 1777988798358528, "dur": 742265, "ph": "X", "name": "RunBackend", "args": {} },
+{ "pid": 32472, "tid": 30064771072, "ts": 1777988798359056, "dur": 13752, "ph": "X", "name": "BackendProgram.Start", "args": {} },
+{ "pid": 32472, "tid": 30064771072, "ts": 1777988799100798, "dur": 11, "ph": "X", "name": "await WaitForAndApplyScriptUpdaters", "args": {} },
+{ "pid": 32472, "tid": 30064771072, "ts": 1777988799100811, "dur": 1, "ph": "X", "name": "await taskToReadBuildProgramOutput", "args": {} },
+{ "pid": 32472, "tid": 294, "ts": 1777988799103988, "dur": 23, "ph": "X", "name": "BuildAsync", "args": {} },
+{ "pid": 32472, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 32472, "tid": 1, "ts": 1777988798296050, "dur": 4255, "ph": "X", "name": "<Add>b__0", "args": {} },
+{ "pid": 32472, "tid": 1, "ts": 1777988798300314, "dur": 52228, "ph": "X", "name": "<SetupBuildRequest>b__0", "args": {} },
+{ "pid": 32472, "tid": 1, "ts": 1777988798352544, "dur": 5019, "ph": "X", "name": "WriteJson", "args": {} },
+{ "pid": 32472, "tid": 294, "ts": 1777988799104015, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1777988798413940, "dur":54, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777988798414101, "dur":2810, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777988798416929, "dur":278, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777988798417309, "dur":361, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777988798417741, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":0, "ts":1777988798417823, "dur":140, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":0, "ts":1777988798418021, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1777988798418140, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1777988798418235, "dur":139, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1777988798418382, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":0, "ts":1777988798418488, "dur":96, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1777988798418595, "dur":94, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1777988798418697, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1777988798418801, "dur":103, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1777988798418913, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1777988798419019, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1777988798419129, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1777988798419226, "dur":113, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":0, "ts":1777988798419352, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1777988798419455, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1777988798419530, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":0, "ts":1777988798419764, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Plugins/x86_64/libonigwrap.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798419825, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798419907, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798420031, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798420109, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798420186, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798420257, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798420334, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798420456, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798420527, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798420604, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798420727, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798420798, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798420950, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798421024, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798421107, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798421256, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798421328, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798421407, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798421479, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798421606, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798421678, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798421755, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798421884, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798421956, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798422033, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798422104, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798422201, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798422278, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798422356, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798422477, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798422546, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798422623, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798422700, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798422825, "dur":157, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798422997, "dur":122, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798423130, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798423207, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798423307, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798423396, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798423485, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798423684, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798423763, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798423823, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798423909, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798423980, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798424109, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798424167, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798424249, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798424402, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798424480, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798424557, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798424678, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798424756, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798424854, "dur":88, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798425007, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798425084, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798425161, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798425232, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798425370, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798425440, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798425517, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798425594, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798425715, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798425785, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798425862, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798425932, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798426134, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798426205, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798426285, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798426414, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798426485, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798426561, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798426638, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798426758, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798426839, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798426910, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798426987, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798427064, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798427203, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798427269, "dur":125, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1777988798427405, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1777988798427489, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":0, "ts":1777988798427589, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D.exe" }}
+,{ "pid":12345, "tid":0, "ts":1777988798427673, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798427772, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":0, "ts":1777988798427913, "dur":153, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1777988798428076, "dur":107, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1777988798428197, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1777988798428293, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1777988798428369, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1777988798428493, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1777988798428564, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1777988798428642, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1777988798428719, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1777988798428885, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1777988798428969, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1777988798429041, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1777988798429169, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1777988798429253, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":0, "ts":1777988798429332, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":0, "ts":1777988798429409, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":0, "ts":1777988798429486, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":0, "ts":1777988798417724, "dur":11886, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777988798429612, "dur":620886, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777988799050500, "dur":78, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777988799050830, "dur":29386, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1777988798418955, "dur":10691, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798429651, "dur":605, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798430257, "dur":456, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798430714, "dur":410, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798431124, "dur":2166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798433398, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798434791, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1777988798438771, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1777988798439974, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798440853, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1777988798442389, "dur":18769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1777988798461228, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798461467, "dur":3131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1777988798464762, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1777988798468115, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Programs\\Unity Hub\\Hub\\Editor\\2022.3.48f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":1, "ts":1777988798468111, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1777988798468208, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798468534, "dur":3894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1777988798472792, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798474678, "dur":31682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D.exe" }}
+,{ "pid":12345, "tid":1, "ts":1777988798506396, "dur":39101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798644576, "dur":359, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798545558, "dur":99438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798645079, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798645204, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798646772, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798648109, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798648324, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798651141, "dur":16252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798667521, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798669705, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798669885, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798672792, "dur":6038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798678954, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798681932, "dur":358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798682345, "dur":3368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798685759, "dur":467, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798686267, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798688840, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798688928, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798692497, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798692728, "dur":3557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798696331, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798696451, "dur":3148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798699643, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798699862, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798702223, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798702310, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798705491, "dur":2060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798707680, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798709616, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798709773, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798713011, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798713122, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798714398, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798714514, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798716238, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798717913, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798719701, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798718007, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798719985, "dur":63345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798783448, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798785197, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798785492, "dur":2984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798788521, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798788647, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798790544, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777988798790627, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777988798791932, "dur":258344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798418945, "dur":10682, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798429635, "dur":3645, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798433408, "dur":173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1777988798434421, "dur":476, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projects\\Unity Projects\\Maze Runner 3D\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798434904, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projects\\Unity Projects\\Maze Runner 3D\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798435077, "dur":425, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projects\\Unity Projects\\Maze Runner 3D\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798435510, "dur":647, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projects\\Unity Projects\\Maze Runner 3D\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798436162, "dur":887, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projects\\Unity Projects\\Maze Runner 3D\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798437056, "dur":1116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projects\\Unity Projects\\Maze Runner 3D\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798438179, "dur":296, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projects\\Unity Projects\\Maze Runner 3D\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798438479, "dur":724, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Projects\\Unity Projects\\Maze Runner 3D\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798433405, "dur":6251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1777988798439820, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1777988798441082, "dur":19446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1777988798460567, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1777988798460674, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798465628, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1777988798466973, "dur":1484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798468821, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1777988798471700, "dur":3601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1777988798475366, "dur":20454, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798496108, "dur":89631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1777988798585784, "dur":53822, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798639725, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798642975, "dur":336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798643356, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798646035, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798646138, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798647727, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798649311, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798651082, "dur":16309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798667528, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798669653, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798669821, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798671365, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798672987, "dur":4492, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798677529, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798678885, "dur":3814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798682737, "dur":1224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798684013, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798685335, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798685497, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798687953, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798688166, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798690524, "dur":569, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798691177, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798694845, "dur":347, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798695276, "dur":3995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798699337, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798699428, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798702156, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798702246, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798704526, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798704611, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798705715, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798705868, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798707877, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798709966, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798710304, "dur":198, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798710512, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798714564, "dur":542, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798715212, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798717434, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798717571, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798720323, "dur":60976, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798781361, "dur":14852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777988798796338, "dur":1407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798797889, "dur":8748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1777988798806661, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1777988798806751, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777988798806836, "dur":6985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1777988798813846, "dur":236532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798419075, "dur":10587, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798429668, "dur":635, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798430304, "dur":482, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798430786, "dur":132, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798430919, "dur":2374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798433317, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1777988798433929, "dur":35299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1777988798469416, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1777988798471633, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798471820, "dur":247, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798480849, "dur":15874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1777988798496761, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798497386, "dur":4228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798501745, "dur":138404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798640266, "dur":1566, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798651043, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798641923, "dur":9205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798651171, "dur":16209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798667489, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798669751, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798669891, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798671436, "dur":6833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798678330, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798678472, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798680582, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798682482, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798685094, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798687457, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798687669, "dur":4563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798692378, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798693885, "dur":586, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798694515, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798696750, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798696857, "dur":5407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798702382, "dur":5031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798707544, "dur":4126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798711732, "dur":972, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798712802, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798714220, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798716016, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798717724, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798719990, "dur":67144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798787173, "dur":502, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798787717, "dur":5615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777988798793383, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798793607, "dur":78, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798793706, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1777988798795516, "dur":9716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1777988798805276, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798805410, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1777988798806623, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798806715, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1777988798808126, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798808260, "dur":2800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1777988798811095, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798811295, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1777988798813200, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777988798813308, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1777988798814377, "dur":235972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798419175, "dur":10543, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798429719, "dur":610, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798430329, "dur":475, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798430805, "dur":2601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798433407, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1777988798435496, "dur":251, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798438497, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1777988798440037, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1777988798441969, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1777988798442101, "dur":18774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1777988798460931, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1777988798460990, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798464546, "dur":1098, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798461420, "dur":4250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1777988798465900, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1777988798469518, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1777988798469655, "dur":4861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1777988798474691, "dur":153051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798627799, "dur":11786, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798639713, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798642944, "dur":365, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798643347, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798646038, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798648102, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798648332, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798650842, "dur":18425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798669318, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798669414, "dur":2906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798672503, "dur":8276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798680815, "dur":772, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798681630, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798683986, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798684318, "dur":2632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798687137, "dur":3397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798690568, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798690774, "dur":740, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798691585, "dur":4506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798696145, "dur":1600, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798697855, "dur":5499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798703444, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798703585, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798705305, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798705667, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798707408, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798709626, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798711514, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798714019, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798714123, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798716061, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798716152, "dur":3096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798719298, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798719390, "dur":62030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798781472, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798781565, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798783084, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798783202, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798784685, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798784786, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798786811, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798786899, "dur":2818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798789760, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798789845, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798791798, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798794248, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Plugins/x86_64/libonigwrap.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777988798795879, "dur":1347, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777988798797269, "dur":8682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1777988798806087, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1777988798807963, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1777988798810831, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projects/Unity Projects/Maze Runner 3D v1.0/Maze Runner 3D_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1777988798813696, "dur":236693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777988799085435, "dur":3609, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 32472, "tid": 294, "ts": 1777988799104092, "dur": 16763, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend1.traceevents"} },
+{ "pid": 32472, "tid": 294, "ts": 1777988799120952, "dur": 1653, "ph": "X", "name": "backend1.traceevents", "args": {} },
+{ "pid": 32472, "tid": 294, "ts": 1777988799101389, "dur": 21300, "ph": "X", "name": "Write chrome-trace events", "args": {} },
